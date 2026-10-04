@@ -1,0 +1,36 @@
+{
+  "name": "berea",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -H 127.0.0.1",
+    "build": "next build",
+    "start": "next start -H 127.0.0.1",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@citation-js/core": "^0.7.18",
+    "@citation-js/plugin-bibtex": "^0.7.18",
+    "@citation-js/plugin-ris": "^0.7.18",
+    "lucide-react": "^0.468.0",
+    "next": "^16.0.0",
+    "papaparse": "^5.5.3",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "@types/papaparse": "^5.3.16",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "eslint": "^9.39.0",
+    "eslint-config-next": "^16.0.0",
+    "prettier": "^3.9.9",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.6"
+  }
+}
